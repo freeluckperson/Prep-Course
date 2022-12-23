@@ -50,7 +50,6 @@ describe('forEach(arr, cb)', function() {
 		expect(nums).toEqual([1, 2, 3, 4, 5]);
 	});
 });
-
 describe('map(arr, cb)', function() {
 	it('should return an array of all the processed array elements', function() {
 		const squares = map([1, 2, 3, 4, 5], function(num) {
@@ -58,9 +57,7 @@ describe('map(arr, cb)', function() {
 		});
 		expect(squares).toEqual([1, 4, 9, 16, 25]);
 	});
-});
-
-describe('filter(array)', function() {
+});describe('filter(array)', function() {
 	it('should return an array conteining the words that starts with "a"', function() {
 		var array = ['abajo', 'pera', 'escalera', 'alerta', 'indice', 'azteca', 'arbol', 'buzo'];
 		expect(filter(array)).toEqual(["abajo", "alerta", "azteca", "arbol"]);
